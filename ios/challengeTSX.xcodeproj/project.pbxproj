@@ -14,6 +14,12 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-challengeTSX-challengeTSXTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-challengeTSX-challengeTSXTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		84050ED1858B47BA9C74DF25 /* MontserratRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE9A829F9B61458A80996450 /* MontserratRegular.ttf */; };
+		3F92E7AC434E499D83E63675 /* MontserratBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB50D5DDC7AA45A090C4E1CA /* MontserratBold.ttf */; };
+		1DBBAE95813548718515FBD2 /* MontserratMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 851678F971D84424A29C340B /* MontserratMedium.ttf */; };
+		EDF2FBD161B24F5DA75CD1D1 /* MontserratSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63442FF24AB44ADA8824E7EA /* MontserratSemiBold.ttf */; };
+		BF26E0B85CBB4947845FC236 /* AvenirNextLTProRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6D4ACD34A3294209AAE3BC0C /* AvenirNextLTProRegular.otf */; };
+		2F41B927F2704645B02F8394 /* AvenirNextLTProBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 71F7419B5E6745EB8E31C1C5 /* AvenirNextLTProBold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = challengeTSX/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-challengeTSX-challengeTSXTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-challengeTSX-challengeTSXTests.release.xcconfig"; path = "Target Support Files/Pods-challengeTSX-challengeTSXTests/Pods-challengeTSX-challengeTSXTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		AE9A829F9B61458A80996450 /* MontserratRegular.ttf */ = {isa = PBXFileReference; name = "MontserratRegular.ttf"; path = "../assets/fonts/MontserratRegular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BB50D5DDC7AA45A090C4E1CA /* MontserratBold.ttf */ = {isa = PBXFileReference; name = "MontserratBold.ttf"; path = "../assets/fonts/MontserratBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		851678F971D84424A29C340B /* MontserratMedium.ttf */ = {isa = PBXFileReference; name = "MontserratMedium.ttf"; path = "../assets/fonts/MontserratMedium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		63442FF24AB44ADA8824E7EA /* MontserratSemiBold.ttf */ = {isa = PBXFileReference; name = "MontserratSemiBold.ttf"; path = "../assets/fonts/MontserratSemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6D4ACD34A3294209AAE3BC0C /* AvenirNextLTProRegular.otf */ = {isa = PBXFileReference; name = "AvenirNextLTProRegular.otf"; path = "../assets/fonts/AvenirNextLTProRegular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		71F7419B5E6745EB8E31C1C5 /* AvenirNextLTProBold.otf */ = {isa = PBXFileReference; name = "AvenirNextLTProBold.otf"; path = "../assets/fonts/AvenirNextLTProBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +134,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				09A4F82ACE4D490EB966EF7D /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +160,20 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		09A4F82ACE4D490EB966EF7D /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				AE9A829F9B61458A80996450 /* MontserratRegular.ttf */,
+				BB50D5DDC7AA45A090C4E1CA /* MontserratBold.ttf */,
+				851678F971D84424A29C340B /* MontserratMedium.ttf */,
+				63442FF24AB44ADA8824E7EA /* MontserratSemiBold.ttf */,
+				6D4ACD34A3294209AAE3BC0C /* AvenirNextLTProRegular.otf */,
+				71F7419B5E6745EB8E31C1C5 /* AvenirNextLTProBold.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -243,6 +270,12 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				84050ED1858B47BA9C74DF25 /* MontserratRegular.ttf in Resources */,
+				3F92E7AC434E499D83E63675 /* MontserratBold.ttf in Resources */,
+				1DBBAE95813548718515FBD2 /* MontserratMedium.ttf in Resources */,
+				EDF2FBD161B24F5DA75CD1D1 /* MontserratSemiBold.ttf in Resources */,
+				BF26E0B85CBB4947845FC236 /* AvenirNextLTProRegular.otf in Resources */,
+				2F41B927F2704645B02F8394 /* AvenirNextLTProBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
